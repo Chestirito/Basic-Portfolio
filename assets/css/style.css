@@ -1,0 +1,114 @@
+html,body{
+    color: #777777;
+    background-image: url("../images/dust_scratches.png");
+    height: 100%;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: auto;
+    position: relative;
+}
+.header{
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: solid #cccccc 1px;
+    overflow: auto;
+}
+.container{
+    width: 960px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+#logo{
+    padding: 25px;
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+}
+.nav{
+    float:right;
+    padding: 20px;
+}
+.nav ul{
+    float: right;
+}
+.nav ul li{
+    float: left;
+    padding: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #777777;
+}
+.content{
+    background-color: #ffffff;
+    border:solid #e2e2e2 1px;
+    clear: left;
+    margin-top: 20px;
+    padding: 30px;
+}
+.title{
+    color: #4aaaa5;
+    font-size: 200%;
+    font-weight: bold;
+    padding-bottom: 25px;
+    border-bottom: solid #cccccc 1.5px;
+    margin-bottom: 20px;
+}
+.contbody::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+section figure{
+    float: left;
+    margin-right: 10px;
+}
+.ftext{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 25px;
+}
+textarea.ftext{
+    height: 150px;
+}
+.btnsubmit{
+    border: 0px;
+    padding: 10px 25px;
+    background-color: #4aaaa5;
+    color: white;
+}
+.portfolio{
+    width: 30%;
+    height: 200px;
+    margin-left: 2%;
+    margin-bottom: 30px;
+    position: relative;
+}
+.portfolio img{
+    height: 100%;
+    width: 100%;
+}
+.ptitle{
+    position: absolute;
+    bottom: 0;
+    background-color: #4aaaa5;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    padding: 15px 0px;
+}
+body footer{
+    background-color:#666666;
+    color: #D2D2D2;
+    bottom: 0px;
+    width:100%;
+    border-top: solid #4aaaa5 8px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+}
